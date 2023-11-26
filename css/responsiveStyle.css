@@ -1,0 +1,31 @@
+
+
+@media(max-width: 767px){
+    .title h1{
+        font-size: 20px;
+
+    }
+
+    .title span{
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:575.5px){
+    .title h1{
+        font-size: 15px;
+
+    }
+
+    .title span{
+        font-size: 17px;
+    }
+
+
+
+}

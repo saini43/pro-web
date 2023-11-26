@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+.navbar{
+    height: 4.3rem;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%); 
+    
+}
+
+.navbar .form{
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+
+.navbar .active{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+    padding: 1rem;
+
+    &:hover{
+    background-color: bisque;
+    
+
+    }
+
+}
+
+  .first{
+    color: #000 !important;
+    position: relative;
+    right: 8rem;
+
+
+    &:hover{
+        background-color: #fff !important;
+    }
+
+  }
+
+  .second{
+    padding-top: 0.4rem !important;
+    padding-right: 3rem !important;
+    padding-bottom: 0.4rem !important;
+    padding-left: 3rem !important;
+    font-weight: 600;
+    background-color:#10c695 !important;
+    color: #fff !important;
+
+    &:hover{
+        background-color: #fff !important;
+        color: #10c695 !important;
+
+    }
+
+
+  
+    
+  }
+
+  /*3rd part*/
+  .title{
+    background: linear-gradient(rgb(184, 97, 97), rgb(229, 175, 158));
+    height: 16.9rem;
+    width: 100%;
+    padding: 3.5rem;
+    align-items: center;
+    color: #fff;
+    font-family: Roboto Slab;
+    letter-spacing: 3px;
+    text-align: center;
+    
+  }
+
+  .title h1{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .title span{
+    font-size: 30px;
+  }
+
+
+  /*4th Part*/
+
+  .info{
+    height: 16rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  
+  }
+  .info .container{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+
+  }
+
+  .info .first_icon{
+    color:#ffa500;
+    font-size: 2rem;
+  }
+  .info .second_icon{
+    color: rgb(67, 241, 67);
+    font-size: 2rem;
+  }
+  .info .third_icon{
+    color:skyblue;
+    font-size: 2rem;
+  }
+  .info .fourth_icon{
+    color:cadetblue;
+    font-size: 2rem;
+  }
+  
+  .info h5{
+    color:#a94442 ;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .info p{
+    font-weight: 500;
+  }
+
+  /*5th Card*/
+
+  .cards{
+    background-color: rgb(241, 234, 220);
+    padding: 2rem;
+  
+  }
+  .cards img{
+    width: 70px;
+    height: auto;
+  }
+
+  .cards .card{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+
+  .cards .row{
+    gap: 2rem;
+    
+  }
+
+  .cards h3{
+    color: #a94442;
+  }
+  .cards p{
+    color: #4e4e4e;
+    font-size: 17px;
+  }
+
+
+  /*6th Exam section*/
+
+  
+
+  .Exams .Exam{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+
+    &:hover{
+      background-color:rgb(241, 234, 220); 
+    }
+
+
+  }
+
+
+  .Exams .row{
+    gap: 2rem;
+
+  }
+
+  .Exam p{
+    font-weight: 500;
+
+  }
+  .Exams h1{
+    font-weight: 600;
+    font-size: 2rem;
+
+
+  }
+
+  /*7th section*/
+  .Education{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+  }
+/*8th*/
+
+.Edu_field{
+  box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+
+
+}
+/*9th section*/
+
+.details{
+  
+  
+
+}
+.details .row{
+  box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+
+}
+
+.details p{
+  color: #707070;
+    margin: 4rem 0 4rem 2rem;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+
+/*Footer*/
+.footer .container{
+  border-bottom: 1px solid black;
+
+}
+
+.footer .copyright{
+  font-weight: 500;
+  padding: 1rem;
+  margin: 1rem;
+  
+}
+
+.footer .copyright p{
+  color: #707070;
+  font-weight: 600;
+}
+
+
